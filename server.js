@@ -47,8 +47,12 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'blog', 'index.html'));
 });
 
-app.get('/article1',function(req,res){
-    res.sendFile(path.join(__dirname,'ui','article1.html'));
+app.get('/about.html',function(req,res){
+    res.sendFile(path.join(__dirname,'ui','about.html'));
+});
+
+app.get('/contact',function(req,res){
+    res.sendFile(path.join(__dirname,'ui','contact.html'));
 });
 
 app.get('/article2',function(req,res){
