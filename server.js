@@ -208,6 +208,64 @@ app.get('/vendor/font-awesome/fonts/fontawesome-webfont.woff2', function (req, r
   res.sendFile(path.join(__dirname, 'blog', '/vendor/font-awesome/fonts/fontawesome-webfont.woff2'));
 });
 
+app.get('/vendor/font-awesome/less/animated.less', function (req, res) {
+  res.sendFile(path.join(__dirname, 'blog', '/vendor/font-awesome/less/animated.less'));
+});
+
+app.get('/vendor/font-awesome/less/bordered-pulled.less', function (req, res) {
+  res.sendFile(path.join(__dirname, 'blog', '/vendor/font-awesome/less/bordered-pulled.less'));
+});
+
+app.get('/vendor/font-awesome/less/core.less', function (req, res) {
+  res.sendFile(path.join(__dirname, 'blog', '/vendor/font-awesome/less/core.less'));
+});
+
+app.get('/vendor/font-awesome/less/fixed-width.less', function (req, res) {
+  res.sendFile(path.join(__dirname, 'blog', '/vendor/font-awesome/less/fixed-width.less'));
+});
+
+app.get('/vendor/font-awesome/less/font-awesome.less', function (req, res) {
+  res.sendFile(path.join(__dirname, 'blog', '/vendor/font-awesome/less/font-awesome.less'));
+});
+
+app.get('/vendor/font-awesome/less/icons.less', function (req, res) {
+  res.sendFile(path.join(__dirname, 'blog', '/vendor/font-awesome/less/icons.less'));
+});
+
+app.get('/vendor/font-awesome/less/larger.less', function (req, res) {
+  res.sendFile(path.join(__dirname, 'blog', '/vendor/font-awesome/less/larger.less'));
+});
+
+app.get('/vendor/font-awesome/less/list.less', function (req, res) {
+  res.sendFile(path.join(__dirname, 'blog', '/vendor/font-awesome/less/list.less'));
+});
+
+app.get('/vendor/font-awesome/less/mixins.less', function (req, res) {
+  res.sendFile(path.join(__dirname, 'blog', '/vendor/font-awesome/less/mixins.less'));
+});
+
+app.get('/vendor/font-awesome/less/path.less', function (req, res) {
+  res.sendFile(path.join(__dirname, 'blog', '/vendor/font-awesome/less/path.less'));
+});
+
+app.get('/vendor/font-awesome/less/rotated-flipped.less', function (req, res) {
+  res.sendFile(path.join(__dirname, 'blog', '/vendor/font-awesome/less/rotated-flipped.less'));
+});
+
+app.get('/vendor/font-awesome/less/screen-reader.less', function (req, res) {
+  res.sendFile(path.join(__dirname, 'blog', '/vendor/font-awesome/less/screen-reader.less'));
+});
+
+app.get('/vendor/font-awesome/less/stacked.less', function (req, res) {
+  res.sendFile(path.join(__dirname, 'blog', '/vendor/font-awesome/less/stacked.less'));
+});
+
+app.get('/vendor/font-awesome/less/variables.less', function (req, res) {
+  res.sendFile(path.join(__dirname, 'blog', '/vendor/font-awesome/less/variables.less'));
+});
+
+
+
 
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
 app.listen(8080, function () {
