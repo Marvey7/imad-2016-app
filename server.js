@@ -164,6 +164,29 @@ app.get('/mail/contact-me.php',function(req,res){
     res.sendFile(path.join(__dirname,'blog','/mail/contact-me.php'));
 });
 
+app.get('/vendor/bootstrap/glyphicons-halflings-regular.eot', function (req, res) {
+  res.sendFile(path.join(__dirname, 'blog', '/vendor/bootstrap/glyphicons-halflings-regular.eot'));
+});
+
+app.get('/vendor/bootstrap/glyphicons-halflings-regular.svg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'blog', '/vendor/bootstrap/glyphicons-halflings-regular.svg'));
+});
+
+app.get('/vendor/bootstrap/glyphicons-halflings-regular.woff', function (req, res) {
+  res.sendFile(path.join(__dirname, 'blog', '/vendor/bootstrap/glyphicons-halflings-regular.woff'));
+});
+
+app.get('/vendor/bootstrap/glyphicons-halflings-regular.ttf', function (req, res) {
+  res.sendFile(path.join(__dirname, 'blog', '/vendor/bootstrap/glyphicons-halflings-regular.ttf'));
+});
+
+app.get('/vendor/bootstrap/glyphicons-halflings-regular.woff2', function (req, res) {
+  res.sendFile(path.join(__dirname, 'blog', '/vendor/bootstrap/glyphicons-halflings-regular.woff2'));
+});
+
+
+
+
 
 
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
