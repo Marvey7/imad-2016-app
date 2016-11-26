@@ -77,7 +77,7 @@ app.get('/js/clean-blog.min.js', function (req, res) {
 });
 
 app.get('/js/clean-blog.js', function (req, res) {
-  res.sendFile(path.join(__dirname, 'blog', '/js/clean-blog.js'));
+  res.sendFile(path.join(__dirname, 'blog/js/', 'clean-blog.js'));
 });
 
 app.get('/gulpfile.js', function (req, res) {
