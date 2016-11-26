@@ -59,12 +59,6 @@ app.get('/contact.html',function(req,res){
     res.sendFile(path.join(__dirname,'blog','contact.html'));
 });
 
-
-
-app.get('/article3',function(req,res){
-    res.send('article three requested and will be served here');
-});
-
 app.get('/css/clean-blog.min.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', '/css/clean-blog.min.css'));
 });
