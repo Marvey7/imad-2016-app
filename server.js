@@ -148,6 +148,17 @@ app.get('/img/post-sample-image.jpg',function(req,res){
     res.sendFile(path.join(__dirname,'blog','/img/post-sample-image.jpg'));
 });
 
+app.get('/less/clean-blog.less',function(req,res){
+    res.sendFile(path.join(__dirname,'blog','/less/clean-blog.less'));
+});
+
+app.get('/less/mixins.less',function(req,res){
+    res.sendFile(path.join(__dirname,'blog','/less/mixins.less'));
+});
+
+app.get('/less/variables.less',function(req,res){
+    res.sendFile(path.join(__dirname,'blog','/less/variables.less'));
+});
 
 
 
