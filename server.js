@@ -264,6 +264,65 @@ app.get('/vendor/font-awesome/less/variables.less', function (req, res) {
   res.sendFile(path.join(__dirname, 'blog', '/vendor/font-awesome/less/variables.less'));
 });
 
+.............................................................................................
+
+
+app.get('/vendor/font-awesome/less/animated.scss', function (req, res) {
+  res.sendFile(path.join(__dirname, 'blog', '/vendor/font-awesome/less/animated.scss'));
+});
+
+app.get('/vendor/font-awesome/less/bordered-pulled.scss', function (req, res) {
+  res.sendFile(path.join(__dirname, 'blog', '/vendor/font-awesome/less/bordered-pulled.scss'));
+});
+
+app.get('/vendor/font-awesome/less/core.scss', function (req, res) {
+  res.sendFile(path.join(__dirname, 'blog', '/vendor/font-awesome/less/core.scss'));
+});
+
+app.get('/vendor/font-awesome/less/fixed-width.scss', function (req, res) {
+  res.sendFile(path.join(__dirname, 'blog', '/vendor/font-awesome/less/fixed-width.scss'));
+});
+
+app.get('/vendor/font-awesome/less/font-awesome.scss', function (req, res) {
+  res.sendFile(path.join(__dirname, 'blog', '/vendor/font-awesome/less/font-awesome.scss'));
+});
+
+app.get('/vendor/font-awesome/less/icons.scss', function (req, res) {
+  res.sendFile(path.join(__dirname, 'blog', '/vendor/font-awesome/less/icons.scss'));
+});
+
+app.get('/vendor/font-awesome/less/larger.scss', function (req, res) {
+  res.sendFile(path.join(__dirname, 'blog', '/vendor/font-awesome/less/larger.scss'));
+});
+
+app.get('/vendor/font-awesome/less/list.scss', function (req, res) {
+  res.sendFile(path.join(__dirname, 'blog', '/vendor/font-awesome/less/list.scss'));
+});
+
+app.get('/vendor/font-awesome/less/mixins.scss', function (req, res) {
+  res.sendFile(path.join(__dirname, 'blog', '/vendor/font-awesome/less/mixins.scss'));
+});
+
+app.get('/vendor/font-awesome/less/path.scss', function (req, res) {
+  res.sendFile(path.join(__dirname, 'blog', '/vendor/font-awesome/less/path.scss'));
+});
+
+app.get('/vendor/font-awesome/less/rotated-flipped.scss', function (req, res) {
+  res.sendFile(path.join(__dirname, 'blog', '/vendor/font-awesome/less/rotated-flipped.scss'));
+});
+
+app.get('/vendor/font-awesome/less/screen-reader.scss', function (req, res) {
+  res.sendFile(path.join(__dirname, 'blog', '/vendor/font-awesome/less/screen-reader.scss'));
+});
+
+app.get('/vendor/font-awesome/less/stacked.scss', function (req, res) {
+  res.sendFile(path.join(__dirname, 'blog', '/vendor/font-awesome/less/stacked.scss'));
+});
+
+app.get('/vendor/font-awesome/less/variables.scss', function (req, res) {
+  res.sendFile(path.join(__dirname, 'blog', '/vendor/font-awesome/less/variables.scss'));
+});
+
 
 
 
