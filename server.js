@@ -128,6 +128,23 @@ app.get('/vendor/jquery/jquery.min.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'blog', '/vendor/jquery/jquery.min.js'));
 });
 
+app.get('/img/about-bg.jpg',function(req,res){
+    res.sendFile(path.join(__dirname,'blog','/img/about-bg.jpg'));
+});
+
+app.get('/img/contact-bg.jpg',function(req,res){
+    res.sendFile(path.join(__dirname,'blog','/img/contact-bg.jpg'));
+});
+
+app.get('/img/home-bg.jpg',function(req,res){
+    res.sendFile(path.join(__dirname,'blog','/img/home-bg.jpg'));
+});
+
+app.get('/img/post-bg.jpg',function(req,res){
+    res.sendFile(path.join(__dirname,'blog','/img/post-bg.jpg'));
+});
+
+
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
 app.listen(8080, function () {
   console.log(`IMAD course app listening on port ${port}!`);
