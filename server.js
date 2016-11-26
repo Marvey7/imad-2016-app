@@ -113,11 +113,11 @@ app.get('/vendor/bootstrap/js/bootstrap.js', function (req, res) {
 });
 
 app.get('/vendor/font-awesome/css/font-awesome.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'blog/vendor/font-awesome/css/', 'font-awesome.css'));
+  res.sendFile(path.join(__dirname, 'blog/vendor/font-awesome/css', 'font-awesome.css'));
 });
 
 app.get('/vendor/font-awesome/css/font-awesome.min.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'blog/vendor/font-awesome/css/', 'font-awesome.min.css'));
+  res.sendFile(path.join(__dirname, 'blog/vendor/font-awesome/css', 'font-awesome.min.css'));
 });
 
 app.get('/vendor/jquery/jquery.js', function (req, res) {
@@ -184,9 +184,29 @@ app.get('/vendor/bootstrap/glyphicons-halflings-regular.woff2', function (req, r
   res.sendFile(path.join(__dirname, 'blog', '/vendor/bootstrap/glyphicons-halflings-regular.woff2'));
 });
 
+app.get('/vendor/font-awesome/fonts/FontAwesome.otf', function (req, res) {
+  res.sendFile(path.join(__dirname, 'blog', '/vendor/font-awesome/fonts/FontAwesome.otf'));
+});
 
+app.get('/vendor/font-awesome/fonts/fontawesome-webfont.eot', function (req, res) {
+  res.sendFile(path.join(__dirname, 'blog', '/vendor/font-awesome/fonts/fontawesome-webfont.eot'));
+});
 
+app.get('/vendor/font-awesome/fonts/fontawesome-webfont.svg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'blog', '/vendor/font-awesome/fonts/fontawesome-webfont.svg'));
+});
 
+app.get('/vendor/font-awesome/fonts/fontawesome-webfont.ttf', function (req, res) {
+  res.sendFile(path.join(__dirname, 'blog', '/vendor/font-awesome/fonts/fontawesome-webfont.ttf'));
+});
+
+app.get('/vendor/font-awesome/fonts/fontawesome-webfont.woff', function (req, res) {
+  res.sendFile(path.join(__dirname, 'blog', '/vendor/font-awesome/fonts/fontawesome-webfont.woff'));
+});
+
+app.get('/vendor/font-awesome/fonts/fontawesome-webfont.woff2', function (req, res) {
+  res.sendFile(path.join(__dirname, 'blog', '/vendor/font-awesome/fonts/fontawesome-webfont.woff2'));
+});
 
 
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
