@@ -160,6 +160,10 @@ app.get('/less/variables.less',function(req,res){
     res.sendFile(path.join(__dirname,'blog','/less/variables.less'));
 });
 
+app.get('/mail/contact-me.php',function(req,res){
+    res.sendFile(path.join(__dirname,'blog','/mail/contact-me.php'));
+});
+
 
 
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
